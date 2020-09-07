@@ -1,0 +1,893 @@
+.enfant1 nav a:nth-child(2){
+    background:#24bfff;
+
+}
+
+@media only screen and (max-width:1103px){
+    .enfant1{
+        position:relative
+    }
+}
+
+@media only screen and (max-width:700px){
+
+
+        .enfant1{
+        height:600px;
+        position:relative
+    }
+
+    .enfant1 nav{
+        top:auto;
+        left:75px;
+        display:flex;
+        flex-direction:column;
+        position:absolute;
+        left:200px;
+        top:305px
+    }
+
+    .enfant1 nav a{
+        display:flex;
+        justify-content:center;
+        font-size:25px;
+       
+    }
+
+    .enfant1 img{
+        width:100%;
+        height:300px;
+        position:absolute;top:0;
+    }
+
+}
+
+
+@media only screen and (max-width:600px){
+
+    .enfant1{
+        position:relative;
+    }
+    .enfant1 nav a{
+        display:flex;
+       justify-content:center;
+
+    }
+
+    .enfant1 nav{
+        position:absolute;
+        left:155px
+    }
+}
+
+@media only screen and (max-width:513px){
+      .enfant1{
+        position:relative;
+    }
+    .enfant1 nav a{
+        display:flex;
+       justify-content:center;
+
+    }
+
+    .enfant1 nav{
+        position:absolute;
+        left:112px
+    }
+}
+
+@media only screen and (max-width:480px){
+    .enfant1{
+        position:relative;
+    }
+    .enfant1 nav a{
+        display:flex;
+       justify-content:center;
+
+    }
+
+    .enfant1 nav{
+        position:absolute;
+        left:95px
+    }
+}
+
+@media only screen and (max-width:472px){
+    .enfant1{
+        position:relative;
+    }
+    .enfant1 nav a{
+        display:flex;
+       justify-content:center;
+
+    }
+
+    .enfant1 nav{
+        position:absolute;
+        left:90px
+    }
+}
+
+
+@media only screen and (max-width:449px){
+    .enfant1{
+        position:relative;
+    }
+    .enfant1 nav a{
+        display:flex;
+       justify-content:center;
+
+    }
+
+    .enfant1 nav{
+        position:absolute;
+        left:80px
+    }
+}
+
+
+@media only screen and (max-width:396px){
+    .enfant1 nav{
+        left:40px
+    }
+
+   .enfant1{
+       position:relative
+   }
+}
+
+
+@media only screen and (max-width:336px){
+    .enfant1{
+        position:relative;
+    }
+    .enfant1 nav a{
+        display:flex;
+       justify-content:center;
+       white-space:nowrap
+
+    }
+
+    .enfant1 nav{
+        position:absolute;
+        left:1px
+    }
+}
+
+.enfant2{
+    background:linear-gradient(to bottom, #0a0a0a6b, #00000000),center/cover no-repeat url("/static/img/maison-architecte.png");;
+    height: 300px;
+}
+
+@media only screen and (max-width:1100px){
+    .enfant2{
+        height:500px;
+    }
+}
+
+h3{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    font-family:sans-serif;
+    font-size:35px;
+    color:#29bdf9;
+    margin:20px;
+    letter-spacing: 2px;
+    }
+
+
+
+    .centre{
+        height:440px;
+        background:#ffffffb8;
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+       box-shadow:0px -14px 10px -15px #52464636;
+    }
+
+    .img-centre{
+ background: center/cover no-repeat url("/static/img/BUREAU-TECHNICIENS-1-1-800x600.jpg");
+ height:350px;
+ width:750px;
+ margin:20px;
+    }
+
+
+    .text-centre{
+        font-family:sans-serif;
+        line-height:1.8;
+        font-size:15px;
+        width:800px;
+        color:#636363;
+        letter-spacing:1px;
+        margin-top:20px;
+        }
+        
+        .text-centre span{
+            color:black;
+            font-weight:600;
+        }
+
+@media only screen and (max-width:1105px){
+    .centre{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+       height:auto
+    }
+
+    .img-centre{
+     width:1000px;
+    
+    }
+   .text-centre{
+       font-size:20px;
+       width:1000px
+   }
+}
+
+
+@media only screen and (max-width:998px){
+    .centre{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+       height:auto
+    }
+
+    .img-centre{
+     width:900px;
+    
+    }
+   .text-centre{
+       font-size:20px;
+       width:900px
+   }
+}
+
+@media only screen and (max-width:900px){
+        .centre{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+       height:auto
+    }
+
+    .img-centre{
+     width:800px;
+    
+    }
+   .text-centre{
+       font-size:20px;
+       width:800px
+   }
+}
+
+@media only screen and (max-width:800px){
+    .centre{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   height:auto
+}
+
+.img-centre{
+ width:700px;
+
+}
+.text-centre{
+   font-size:20px;
+   width:700px
+}
+}
+
+@media only screen and (max-width: 700px){
+    .centre{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   height:auto
+}
+
+.img-centre{
+ width:600px;
+
+}
+.text-centre{
+   font-size:20px;
+   width:600px
+}
+}
+
+@media only screen and (max-width:600px){
+    .centre{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   height:auto
+}
+
+.img-centre{
+ width:500px;
+
+}
+.text-centre{
+   font-size:20px;
+   width:500px
+}
+}
+
+
+
+@media only screen and (max-width:500px){
+    .centre{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   height:auto
+}
+
+.img-centre{
+ width:400px;
+
+}
+.text-centre{
+   font-size:20px;
+   width:400px
+}
+}
+
+
+@media only screen and (max-width:400px){
+    .centre{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   height:auto
+}
+
+.img-centre{
+ width:300px;
+
+}
+.text-centre{
+   font-size:20px;
+   width:300px
+}
+}
+
+
+@media only screen and (max-width:300px){
+        
+    .centre{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+       height:auto
+    }
+
+    .img-centre{
+     width:200px;
+    
+    }
+   .text-centre{
+       font-size:20px;
+       width:200px
+   }
+}
+
+
+
+@media only screen and (max-width:430px){
+    footer{
+        white-space:nowrap;
+        
+    }
+}
+
+
+.leader{
+display:flex;
+flex-direction:column;
+}
+
+.leader .titre1{
+    margin-top:-10px
+}
+
+.leader-chef{
+display:flex;
+justify-content:center
+}
+
+.leader-chef p{
+    width:800px;
+    font-size:15px;
+    font-family:sans-serif;
+    line-height:1.5;
+    color:#636363
+}
+
+.leader-chef img{
+    width:400px;
+    height:250px
+}
+
+.leader-img{
+display:flex;
+ margin-top:20px;
+flex-wrap:wrap;
+justify-content: center;
+}
+
+.leader-img img{
+    height:300px;
+    width:300px
+}
+
+.leader-img div{
+    margin:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    border-radius:3px
+
+}
+
+.leader-img p{
+    font-family:sans-serif;
+    font-size:15px;
+
+}
+
+
+.leader-img div:nth-child(1){
+    background: center/cover no-repeat url("/static/img/person_icon-icons.com_50075.png"), #b7b6b6;
+    height: 300px;
+    width: 300px;
+  transition:1s
+}
+
+.leader-img div:nth-child(1):hover{
+transform:scale(1.065);
+ background: center/cover no-repeat url("/static/img/person_icon-icons.com_50075.png"), #4a4949;
+ transition:1s
+}
+
+
+.leader-img div:nth-child(2){
+    background: center/cover no-repeat url("/static/img/icone-femme-2.png"),#b7b6b6;
+    height: 300px;
+    width: 300px;
+    transition:1s
+}
+
+.leader-img div:nth-child(2):hover{
+transform:scale(1.065);
+ background: center/cover no-repeat url("/static/img/icone-femme-2.png"),#4a4949;
+ transition:1s
+}
+
+.leader-img div:nth-child(3){
+    background: center/cover no-repeat url("/static/img/person_icon-icons.com_50075.png"),#b7b6b6;
+    height: 300px;
+    width: 300px;
+    transition:1s
+}
+
+.leader-img div:nth-child(3):hover{
+transform:scale(1.065);
+ background: center/cover no-repeat url("/static/img/person_icon-icons.com_50075.png"), #4a4949;
+ transition:1s
+}
+
+.leader-img div:nth-child(4){
+    background: center/cover no-repeat url("/static/img/icone-femme-2.png"),#b7b6b6;
+    height: 300px;
+    width: 300px;
+    transition:1s
+}
+
+.leader-img div:nth-child(4):hover{
+transform:scale(1.065);
+ background: center/cover no-repeat url("/static/img/icone-femme-2.png"),#4a4949;
+ transition:1s
+}
+
+.leader-img div:nth-child(5){
+    background: center/cover no-repeat url("/static/img/person_icon-icons.com_50075.png"),#b7b6b6;
+    height: 300px;
+    width: 300px;
+    transition:1s
+}
+
+.leader-img div:nth-child(5):hover{
+transform:scale(1.065);
+ background: center/cover no-repeat url("/static/img/person_icon-icons.com_50075.png"), #4a4949;
+ transition:1s
+}
+
+
+.leader-img div:nth-child(6){
+    background: center/cover no-repeat url("/static/img/icone-femme-2.png"),#b7b6b6;
+    height: 300px;
+    width: 300px;
+    transition:1s
+}
+
+.leader-img div:nth-child(6):hover{
+transform:scale(1.065);
+ background: center/cover no-repeat url("/static/img/icone-femme-2.png"),#4a4949;
+ transition:1s
+}
+
+.leader-img div:nth-child(7){
+    background: center/cover no-repeat url("/static/img/person_icon-icons.com_50075.png"),#b7b6b6;
+    height: 300px;
+    width: 300px;
+    transition:1s
+}
+
+.leader-img div:nth-child(7):hover{
+transform:scale(1.065);
+ background: center/cover no-repeat url("/static/img/person_icon-icons.com_50075.png"), #4a4949;
+ transition:1s
+}
+
+.leader-img div:nth-child(8){
+    background: center/cover no-repeat url("/static/img/icone-femme-2.png"),#b7b6b6;
+    height: 300px;
+    width: 300px;
+    transition:1s
+}
+
+.leader-img div:nth-child(8):hover{
+transform:scale(1.065);
+ background: center/cover no-repeat url("/static/img/icone-femme-2.png"),#4a4949;
+ transition:1s
+}
+
+
+footer{
+    height:50px;
+    background:black;
+    color:#b3b3b3;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+            margin-top:10px
+}
+
+footer span{
+    margin-left:5px;
+    color:#29bdf9
+}
+/*responsive*/
+
+
+@media only screen and (max-width:1240px){
+    .leader-img{
+        flex-wrap:nowrap
+    }
+
+    .leader-img img{
+       margin:auto
+    }
+}
+
+@media only screen and (max-width:1102px){
+    .leader .titre1{
+    margin-top:20px
+}
+}
+
+@media only screen and (max-width:1105px){
+
+    .leader-chef{
+        flex-wrap:wrap
+    }
+    .leader-chef p{
+    width:1000px;
+    font-size:20px;
+    font-family:sans-serif;
+    line-height:1.5;
+    color:#636363
+}
+
+.leader-chef img{
+    width:700px;
+    height:auto
+}
+
+.leader .titre1{
+    margin-top:20px
+}
+
+}
+
+@media only screen and (max-width:1001px){
+    .leader-img div:nth-child(1):hover{
+    background: center/cover no-repeat url("/static/img/person_icon-icons.com_50075.png"), #b7b6b6;
+  transform:none;
+}
+
+.leader-img div:nth-child(2):hover{
+    background: center/cover no-repeat url("/static/img/icone-femme-2.png"),#b7b6b6;
+    transition:1s;
+     transform:none;
+}
+
+
+.leader-img div:nth-child(3):hover{
+    background: center/cover no-repeat url("/static/img/person_icon-icons.com_50075.png"),#b7b6b6;
+    transition:1s;
+     transform:none;
+}
+.leader-img div:nth-child(4):hover{
+    background: center/cover no-repeat url("/static/img/icone-femme-2.png"),#b7b6b6;
+    transition:1s;
+     transform:none;
+}
+.leader-img div:nth-child(5):hover{
+    background: center/cover no-repeat url("/static/img/person_icon-icons.com_50075.png"),#b7b6b6;
+    transition:1s;
+     transform:none;
+}
+.leader-img div:nth-child(6):hover{
+    background: center/cover no-repeat url("/static/img/icone-femme-2.png"),#b7b6b6;
+    transition:1s;
+     transform:none;
+}
+.leader-img div:nth-child(7):hover{
+    background: center/cover no-repeat url("/static/img/person_icon-icons.com_50075.png"),#b7b6b6;
+    transition:1s;
+     transform:none;
+}
+.leader-img div:nth-child(8):hover{
+    background: center/cover no-repeat url("/static/img/icone-femme-2.png"),#b7b6b6;
+    transition:1s;
+     transform:none;
+}
+}
+
+@media only screen and (max-width:998px){
+        .leader-chef p{
+    width:900px;
+    font-size:20px;
+    font-family:sans-serif;
+    line-height:1.5;
+    color:#636363
+}
+
+.leader-img {
+    flex-wrap:wrap;
+    margin-left:30px
+}
+}
+
+@media only screen and (max-width:960px){
+    .leader-img{
+        width:auto;
+        margin-left:11px
+}
+}
+
+@media only screen and (max-width:940px){
+    .leader-img{
+   width:930px;
+   margin:auto
+}
+}
+
+@media only screen and (max-width:930px){
+   .leader-img{
+padding:1px;
+justify-content:center;
+width:auto
+}
+}
+
+@media only screen and (max-width:905px){
+            .leader-chef p{
+    width:800px;
+    font-size:20px;
+    font-family:sans-serif;
+    line-height:1.5;
+    color:#636363
+}
+
+}
+
+@media only screen and (max-width:800px){
+            .leader-chef p{
+    width:700px;
+    font-size:20px;
+    font-family:sans-serif;
+    line-height:1.5;
+    color:#636363
+}
+
+}
+
+@media only screen and (max-width:700px){
+            .leader-chef p{
+    width:600px;
+    font-size:20px;
+    font-family:sans-serif;
+    line-height:1.5;
+    color:#636363
+}
+
+.leader-chef img{
+    width:600px;
+    height:auto
+}
+
+}
+
+@media only screen and (max-width:625px){
+
+    .leader-img p{
+        font-size:16px;
+        white-space:nowrap
+    }
+
+    .leader-img div:nth-child(1){
+    background: center/cover no-repeat url("/static/img/person_icon-icons.com_50075.png"), #b7b6b6;
+    height: 250px;
+    width: 250px;
+  transition:1s
+}
+
+.leader-img div:nth-child(2){
+    background: center/cover no-repeat url("/static/img/icone-femme-2.png"),#b7b6b6;
+    height: 250px;
+    width: 250px;
+    transition:1s
+}
+.leader-img div:nth-child(3){
+    background: center/cover no-repeat url("/static/img/person_icon-icons.com_50075.png"),#b7b6b6;
+    height: 250px;
+    width: 250px;
+    transition:1s
+}
+.leader-img div:nth-child(4){
+    background: center/cover no-repeat url("/static/img/icone-femme-2.png"),#b7b6b6;
+    height: 250px;
+    width: 250px;
+    transition:1s
+}
+.leader-img div:nth-child(5){
+    background: center/cover no-repeat url("/static/img/person_icon-icons.com_50075.png"),#b7b6b6;
+    height: 250px;
+    width: 250px;
+    transition:1s
+}
+
+    .leader-img div:nth-child(6){
+    background: center/cover no-repeat url("/static/img/icone-femme-2.png"),#b7b6b6;
+    height: 250px;
+    width: 250px;
+    transition:1s
+}
+.leader-img div:nth-child(7){
+    background: center/cover no-repeat url("/static/img/person_icon-icons.com_50075.png"),#b7b6b6;
+   height: 250px;
+    width: 250px;
+    transition:1s
+}
+.leader-img div:nth-child(8){
+    background: center/cover no-repeat url("/static/img/icone-femme-2.png"),#b7b6b6;
+   height: 250px;
+    width: 250px;
+    transition:1s
+}
+}
+
+@media only screen and (max-width:602px){
+    .leader-chef p{
+        width:500px
+    }
+
+    .leader-chef img{
+        width:500px
+    }
+}
+
+@media only screen and (max-width:522px){
+ .leader-img div{
+     padding:200px
+ }
+
+ .leader-img p{
+     font-size:20px
+ }
+}
+
+@media only screen and (max-width:500px){
+    .leader-chef p{
+        width:400px
+    }
+
+    .leader-chef img{
+        width:400px
+    }
+
+    .leader .titre1{
+        font-size:25px;
+        margin-top:25px;
+        white-space:nowrap
+    }
+
+        .leader .titre2{
+        font-size:25px;
+        margin-top:25px;
+        white-space:nowrap
+    }
+}
+
+@media only screen and (max-width:410px){
+     .leader-img div{
+     padding:150px
+ }
+}
+
+@media only screen and (max-width:400px){
+    .leader-chef p{
+        width:300px
+    }
+
+    .leader-chef img{
+        width:300px
+    }
+
+    .footer{
+        font-size:12px
+    }
+}
+
+@media only screen and (max-width:310px){
+    .leader-img div{
+     padding:0px
+ }
+}
+
+@media only screen and (max-width:306px){
+    .leader-img p{
+        font-size:16px
+    }
+}
+
+@media only screen and (max-width:300px){
+    .leader-chef p{
+        width:200px;
+
+    }
+
+    .leader-chef img{
+        width:200px
+    }
+
+    .leader .titre1{
+        font-size:18px
+    }
+
+      .leader .titre2{
+        font-size:18px
+    }
+
+ 
+}
+

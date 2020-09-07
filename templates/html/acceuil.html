@@ -1,0 +1,65 @@
+{% extends 'html/index.html'%}
+
+{% block title %}
+
+    Acceuil
+
+{% endblock%}
+
+	{% load static %}
+{% block style %}
+
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+{% endblock %}
+
+{% block contend %}
+	    </div>
+        <div class="enfant2"></div>
+        <div class="enfant3">
+            <h2 class="titre"><p>Bienvenu Au</p><span>CABINET BAMBA</span></h2>
+        </div>
+        <div class="enfant4"></div>
+        <div class="enfant5"></div>
+
+
+    <div class="centre">
+        <div class="diaporama"></div>
+    
+        <div class="texte">
+            <span>CABINET BAMBA</span>à taille humain, est composée d'une équipe de 10 personnes toute hierrachies confondues au profiles expérimentés et complémentaire<br><br>Cette page regroupe toutes <a href="{% url 'quisommenous' %}">informations</a>concernant notre Cabinet ainsi que <a href="{% url 'NosActivite' %}">nos activités</a>.<br>Par ailleur,pour plus de renseignement veiller nous  <a href="{% url 'Contacter' %}">Contacter</a>
+        </div>
+        </div> 
+
+        <div class="parent-bottom">
+            <div class="bottom1">
+                <span class="titre1">NOS DEFIS</span><br>
+    Toujours à la recherche de l’excellence, <span class="CB">CABINET BAMBA </span>dispose d’une équipe réactive toute l’année, un service technique performant, et un interlocuteur dédié au service de nos clients.
+    
+    Nous apportons des solutions personnalisées et adaptons nos prestations à chaque client.
+    
+    Notre entreprise se veut experte en évaluation de biens immobiliers. Nous voulons élargir notre portefeuille client en trouvant de nouveaux marchés, en réalisant l’expertise avec perfection afin de satisfaire notre clientèle.
+            </div>
+    
+            <div class="bottom2">
+                <span class="titre2">NOS POINTS FORTS</span><br>
+    <span class="CB">CABINET BAMBA</span> met à la disposition de ces clients son professionnalisme et s’engage sur:
+    
+    La qualité de ses prestations ;
+    La présentation d’un Rapport d’Expertise ;
+    Le respect des coûts et des plannings d’intervention ;
+    L’efficacité, la rapidité et la rigueur dans l’expertise immobilière;
+    La performance liée à ses services ;
+    Le maximum de ses capacités à faire le travail qui lui est assigné.
+            </div>
+            <div class="bottom3">
+                <span class="titre3">NOS VALEURS</span><br>
+                DÉONTOLOGIE ET DILIGENCES
+    <span class="CB">CABINET BAMBA</span> réalise ses expertises et missions dans le respect des règles et de la déontologie fixées par les normes nationales et internationales.
+    
+    <span class="CB">CABINET BAMBA</span> respecte également les règles déontologiques contraignantes imposées aux experts judiciaires notamment par le Nouveau Code de Procédure Civile.
+            </div>
+          </div>
+    </div>
+
+{% endblock %}

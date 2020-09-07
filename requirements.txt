@@ -1,0 +1,9 @@
+asgiref==3.2.10
+dj-database-url==0.5.0
+-e git+https://github.com/django/django.git@a6291394256aa758d74eec9ce0cfae8aea6475f2#egg=Django
+django-on-heroku==1.0.1
+django-widget-tweaks==1.4.8
+gunicorn==20.0.4
+psycopg2-binary==2.8.5
+pytz==2020.1
+sqlparse==0.3.1

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+    <link href="{% static 'img/logo12.jpg' %}" rel="shortcut icon">
+    {% block style %}{% endblock %}
+</head>
+<body>
+    <div class="pere">
+        <div class="enfant1">
+
+            <img src="{% static 'img/logo12.jpg' %}" height="100" width="100">
+            <nav>
+                <a href="{% url 'acceuil' %}" id="lien">Acceuil</a>
+                <a href="{% url 'quisommenous' %}">Qui Somme nous ?</a>
+                <a href="{% url 'NosActivite' %}">Nos activités</a>
+                <a href="{% url 'Contacter' %}">Contactez-Nous</a>
+            </nav>
+
+        </div>
+        {% block contend %}{% endblock %}
+    </div>
+
+
+    <footer class="footer">
+        © Copyright © 2020 Cabinet Bamba - Design by <span>ISO-Dev</span>
+    </footer>
+</body>
+</html>

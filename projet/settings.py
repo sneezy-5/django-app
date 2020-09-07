@@ -25,7 +25,7 @@ SECRET_KEY = '2fut8887t6^qr1uod-$4_#0&0o&b8%6=(j=p9rm1md4v_@!b_q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sneezyapp.herokuapp.com']
 
 
 # Application definition
